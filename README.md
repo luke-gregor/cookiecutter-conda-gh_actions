@@ -1,5 +1,7 @@
 # cookiecutter-conda-gh_actions
-A [cookiecutter](https://www.github.com/audreyr/cookiecutter "cookiecutter") template for Python projects using conda and GitHub actions for testing and deployment
+A [cookiecutter](https://www.github.com/audreyr/cookiecutter "cookiecutter") template for Python projects using conda and GitHub actions for testing and deployment. 
+
+Based on cookiecutter-conda-python: https://github.com/conda/cookiecutter-conda-python.
 
 ## Features
 
