@@ -1,0 +1,12 @@
+{
+  "full_name": "Full Name",
+  "email": "Email Address",
+  "github_username": "Destination github org or username",
+  "repo_name": "repository_name",
+  "package_name": "{{ cookiecutter.repo_name.lower().replace(' ', '_') }}",
+  "project_name": "A user friendly name with spaces and characters",
+  "project_short_description": "Short description",
+  "noarch_python": "y",
+  "include_cli": "y",
+  "open_source_license": ["MIT", "BSD", "ISC", "Apache", "GNUv3", "Proprietary"]
+}
