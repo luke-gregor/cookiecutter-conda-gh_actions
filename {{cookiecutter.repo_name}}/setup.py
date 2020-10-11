@@ -3,13 +3,10 @@ from os.path import exists
 from setuptools import find_packages, setup
 
 if exists('README.rst'):
-    with open('README.md') as f:
+    with open('README.rst') as f:
         long_description = f.read()
 else:
     long_description = ''
-
-with open('requirements.txt') as f:
-    install_requires = f.read().strip().split('\n')
 
 test_requirements = ['pytest-cov']
 CLASSIFIERS = [
@@ -38,7 +35,9 @@ setup(
     },
     long_description=long_description,
     packages=find_packages(),
-    install_requires=install_requires,
+    install_requires=[
+        "",
+    ],
     {% if cookiecutter.include_cli == "y" -%}
     entry_points={
         'console_scripts': [
@@ -49,6 +48,7 @@ setup(
     test_suite='{{ cookiecutter.package_name }}/tests',
     tests_require=test_requirements,
     setup_requires=[
+        'wheel',
         'setuptools_scm',
         'setuptools>=30.3.0',
         'setuptools_scm_git_archive',

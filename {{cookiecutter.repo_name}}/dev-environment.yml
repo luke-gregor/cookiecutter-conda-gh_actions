@@ -1,0 +1,15 @@
+name: {{ cookiecutter.package_name }}-dev
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - pip
+  - pytest-cov
+  - flake8
+  - black==19.10b0  # this is NB, otherwise will fail
+  - isort
+  # add more dependencies here
+  - pip:
+    - wheel
+    - pre-commit
+    - mkdocs

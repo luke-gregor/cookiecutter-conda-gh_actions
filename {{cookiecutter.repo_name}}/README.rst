@@ -12,3 +12,5 @@
 
 
 {{ cookiecutter.project_short_description }}
+
+Type `make` in the terminal for more information about common commands
