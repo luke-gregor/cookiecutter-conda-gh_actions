@@ -13,6 +13,8 @@ A [cookiecutter](https://www.github.com/audreyr/cookiecutter "cookiecutter") tem
 
 ## Installation
 
+This cookiecutter assumes that you have git and a version of conda installed.
+
 Prior to installing cookiecutter-conda-python, the cookiecutter package must be installed in your environment. This is achieved via the following command::
 
     $ conda install cookiecutter
@@ -43,6 +45,9 @@ Once cookiecutter clones the template, you will be asked a series of questions r
 After answering the questions asked during installation, a conda Python package will be
 created in your current working directory. This package will contain a simple CLI script
 and the conda recipe necessary to build the application into a conda package.
+
+You can also type `make` in the temrinal to see a list of commands. 
+I recommend that you run `make dev_environment` to set up the conda environment.
 
 Documentation can be built with `mkdocs build` or served live with `mkdocs serve`. 
 Running `mkdocs gh-deploy` will create a GitHub pages site. 
