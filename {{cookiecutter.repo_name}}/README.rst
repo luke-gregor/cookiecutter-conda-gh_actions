@@ -2,6 +2,7 @@
 {{ cookiecutter.package_name }}
 ===============================
 
+:: This document should remain RST format so that it can be parsed by ``pypi``. The rest will be markdown.
 
 .. image:: https://img.shields.io/travis/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.svg
         :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
@@ -13,4 +14,4 @@
 
 {{ cookiecutter.project_short_description }}
 
-Type `make` in the terminal for more information about common commands
+Type ``make`` in the terminal for more information about common commands
