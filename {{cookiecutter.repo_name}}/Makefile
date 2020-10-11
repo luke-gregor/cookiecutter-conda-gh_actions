@@ -33,7 +33,7 @@ build:  ## Build the files required to submit to Pypi (will first test)
 site:  ## Comples and submits the documentation to GitHub pages
 	mkdocs gh-deploy
 
-setup_env: clean  ## set up the developer environement
+dev_environment: clean  ## set up the developer environement
 	git init
 	conda env create -f ./dev-environment.yml
 	($(CONDA_ACTIVATE) {{ cookiecutter.package_name }}-dev)
