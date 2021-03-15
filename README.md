@@ -23,7 +23,7 @@ Prior to installing cookiecutter-conda-python, the cookiecutter package must be 
 
 With cookiecutter installed, the cookiecutter-conda-python template can be installed with::
 
-    $ cookiecutter https://github.com/luke-gregor/cookiecutter-conda-gh_actions.git
+    $ cookiecutter https://github.com/lukegre/cookiecutter-conda-gh_actions.git
 
 Once cookiecutter clones the template, you will be asked a series of questions related to your project::
 
